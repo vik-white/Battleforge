@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8417c0d22a4b3fad8dc6bc1c7fd212, type: 3}
+  m_Name: DualBladeElf
+  m_EditorClassIdentifier: 
+  _data:
+    rid: 4894562035859718570
+  references:
+    version: 2
+    RefIds:
+    - rid: 4894562035859718570
+      type: {class: CharacterData, ns: , asm: Assembly-CSharp}
+      data:
+        ID: Dual Blade Elf
+        Prefab: {fileID: 253127214678519253, guid: ea2bf1a3cc5892245a1cef4d8728d128,
+          type: 3}
+        Image: {fileID: 21300000, guid: b1d1431ad00e955448e33aa33e059438, type: 3}
+        Damage: 3
+        Health: 5
+        AbilityDescription: Double Strike
+        AbilityImage: {fileID: 21300000, guid: c9fb6e2e98cef6d4f9e1533b85d99546, type: 3}
+        IsCollectable: 1
+        Type: 0
+        Race: 1
+        Rarity: 2
+        Abilities:
+        - rid: 4894562235692089344
+    - rid: 4894562235692089344
+      type: {class: MultipleHitAbilityData, ns: , asm: Assembly-CSharp}
+      data:
+        Count: 2

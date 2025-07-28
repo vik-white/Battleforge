@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18dadd6266da9534eb58b51cb9ea97cf, type: 3}
+  m_Name: UIConfigs
+  m_EditorClassIdentifier: 
+  _uiElements:
+  - Key: 0
+    Value: {fileID: 6586493836947481272, guid: 4ab1b85ece3587243900159d24e23cd6, type: 3}
+  - Key: 1
+    Value: {fileID: 7429195003496978287, guid: f3e247dacea4601438b5124d1a50f79e, type: 3}
+  - Key: 2
+    Value: {fileID: 1116738833374353754, guid: 6a1a430adc04c0c4aa0eb214acdc7ae8, type: 3}
+  - Key: 4
+    Value: {fileID: 8449006252007057927, guid: f84d2c87eea7a5f4098f40636d8a22a5, type: 3}
+  - Key: 3
+    Value: {fileID: 6238456736078551786, guid: 0611c2599182a2f4f8e62a98df8416ca, type: 3}
+  - Key: 5
+    Value: {fileID: 4086798190979006625, guid: 23a4ef32622f71844acc07a5e05cc656, type: 3}
+  - Key: 6
+    Value: {fileID: 6329271350894849735, guid: ea21682be8f2b844893c2c153cb47716, type: 3}
+  _racesBG:
+  - Key: 0
+    Value: {fileID: 21300000, guid: dff68161a3ce0bb4499b8cb546481d3f, type: 3}
+  - Key: 1
+    Value: {fileID: 21300000, guid: 2f1149ded4ed85a4197f75952ace657d, type: 3}
+  - Key: 2
+    Value: {fileID: 21300000, guid: d78ea563af362f747ba07e9377659063, type: 3}
+  _bigRacesBG:
+  - Key: 0
+    Value: {fileID: 21300000, guid: 723dd50238988dd47b24ee317413783c, type: 3}
+  - Key: 1
+    Value: {fileID: 21300000, guid: 83aa54da863864f42918557a9402dd6a, type: 3}
+  - Key: 2
+    Value: {fileID: 21300000, guid: 383edb5394282474baf2d33d0a590c71, type: 3}
+  _racesIcons:
+  - Key: 0
+    Value: {fileID: 21300000, guid: d2c24e3ccc6cb3c4db4450aa27697cf5, type: 3}
+  - Key: 1
+    Value: {fileID: 21300000, guid: a3ed802f8cb688a4fa7067e8fa2eb0ff, type: 3}
+  - Key: 2
+    Value: {fileID: 21300000, guid: f706a9d7b2293a749aef8501489f1357, type: 3}
+  _characterTypeIcons:
+  - Key: 0
+    Value: {fileID: 21300000, guid: 45091f2bd3656ef4998a6b70a1263535, type: 3}
+  - Key: 1
+    Value: {fileID: 21300000, guid: 0b6527208818b554b98a63fba90f8cf1, type: 3}

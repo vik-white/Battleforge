@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8417c0d22a4b3fad8dc6bc1c7fd212, type: 3}
+  m_Name: ShadowReaper
+  m_EditorClassIdentifier: 
+  _data:
+    rid: 4894562035859718570
+  references:
+    version: 2
+    RefIds:
+    - rid: 4894562035859718570
+      type: {class: CharacterData, ns: , asm: Assembly-CSharp}
+      data:
+        ID: Shadow Reaper
+        Prefab: {fileID: 253127214678519253, guid: 8a90138a6b93c7d469b3a38634f25800,
+          type: 3}
+        Image: {fileID: 21300000, guid: 6d51244a768092447a09f76f4838d917, type: 3}
+        Damage: 4
+        Health: 4
+        AbilityDescription: Randomly kills one enemy on death
+        AbilityImage: {fileID: 21300000, guid: feb633bd70b70ac4b878396dc4248569, type: 3}
+        IsCollectable: 1
+        Type: 0
+        Race: 2
+        Rarity: 2
+        Abilities: []

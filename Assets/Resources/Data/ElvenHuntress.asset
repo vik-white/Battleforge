@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8417c0d22a4b3fad8dc6bc1c7fd212, type: 3}
+  m_Name: ElvenHuntress
+  m_EditorClassIdentifier: 
+  _data:
+    rid: 4894562035859718570
+  references:
+    version: 2
+    RefIds:
+    - rid: 4894562035859718570
+      type: {class: CharacterData, ns: , asm: Assembly-CSharp}
+      data:
+        ID: Elven Huntress
+        Prefab: {fileID: 253127214678519253, guid: 9815780c5c3d3274a93b3781ffede369,
+          type: 3}
+        Image: {fileID: 21300000, guid: 61c5c45c20648724982db11f5baf21d1, type: 3}
+        Damage: 4
+        Health: 5
+        AbilityDescription: 1 attack for each adjacent Concord ally
+        AbilityImage: {fileID: 21300000, guid: f42facdca3bc2a644b895a951af40e30, type: 3}
+        IsCollectable: 1
+        Type: 1
+        Race: 0
+        Rarity: 3
+        Abilities: []

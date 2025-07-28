@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8417c0d22a4b3fad8dc6bc1c7fd212, type: 3}
+  m_Name: PhoenixReborn
+  m_EditorClassIdentifier: 
+  _data:
+    rid: 4894562035859718570
+  references:
+    version: 2
+    RefIds:
+    - rid: 4894562035859718570
+      type: {class: CharacterData, ns: , asm: Assembly-CSharp}
+      data:
+        ID: Phoenix Reborn
+        Prefab: {fileID: 253127214678519253, guid: 68826adee2b192548bbf764135669bd2,
+          type: 3}
+        Image: {fileID: 21300000, guid: 275d3e74ca4b1554d8da2dee9ed724bc, type: 3}
+        Damage: 3
+        Health: 6
+        AbilityDescription: Revives after death with 50% health and 150% damage
+        AbilityImage: {fileID: 21300000, guid: 27efbe02525531c4093c86a3a97809f2, type: 3}
+        IsCollectable: 1
+        Type: 0
+        Race: 1
+        Rarity: 3
+        Abilities:
+        - rid: 4894562393594789946
+    - rid: 4894562393594789946
+      type: {class: PhoenixRebornAbilityData, ns: , asm: Assembly-CSharp}
+      data: 
